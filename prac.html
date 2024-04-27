@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> form </title>
+    </head> 
+    <body>
+        <h2 style="font-style: inherit;"> Ragistration Form</h2>
+        <form> 
+            <div>
+                <label for="fullname">FullName:</label> 
+            <input type="text" name="fullname" id="fullname" required>
+            </div> <br>
+            <div>
+                <label for="email">Email:</label> 
+            <input type="email" name="email" id="email" required>
+            </div> <br>
+            <div>
+                <label for="password">Password:</label> 
+            <input type="password" name="password" id="password" required>
+            </div><br>
+            <div>
+                <label for="date"> Date Of Birth:</label>
+                <input type="date" name="dob" id="dob">
+            </div> <br>
+            <div>
+                <label for="photo"> Choose Photo:</label>
+                <input type="file" name="photo" id="photo">
+            </div> <br>
+            <div>
+                <label for="gander">Gander:</label> 
+            <input type="radio" name="gander" id="gander" value="male">Male
+            <input type="radio" name="gander" id="gander" value="Female">Female
+            </div><br>
+            <div>
+                <label for="religion">Religion:</label> 
+            <input type="checkbox" name="religion" id="religion" value="islam">Islam
+            <input type="checkbox" name="religion" id="religion" value="hindu">Hindu
+            </div><br>
+            <div>
+                <label for="department">Department:</label>
+                <select name="department">
+                    <option value="cse">CSE</option>
+                    <option value="eee">EEE</option>
+                    <option value="llb">LLB</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="country">Country:</label>
+                <select name="country">
+                    <option value="BD">Bangladesh</option>
+                    <option value="IND">India</option>
+                    <option value="CNA">Canada</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </div>
+
+
+
+
+        </form>
+
+
+    </body>
+
+</html>

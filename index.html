@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+<body>
+    <form>
+        <h1 style="font-style: oblique;text-align: center;"> Sing Up Form </h1>
+    <hr>
+    <br>
+    <label for="User"> Name: </label>
+    <input type="text" id="User" name="User" placeholder="User Name"> <br>
+    <label for="Email"> Email: </label>
+    <input type="email" id="email" name="usermail" placeholder="User Mail" required>
+    <br>
+    <label for="pass"> Password: </label>
+    <input type="password" id="pass" name="password" placeholder="Password">
+    <br>
+    <label for="phone"> Phone: </label>
+    <br>
+    <select name="code">
+        <option value="+880">+880</option>
+        <option value="+999">+999</option>
+        <option value="+011">+011</option>
+    </select>
+    <input type="Number" id="phone" name="phone" placeholder="0000000000"> 
+    <br>
+    <label for="country">Country:</label>
+    <input list="con">
+    <datalist id="con">
+        <option value="Bangladesh"></option>
+        <option value="India"></option>
+        <option value="Canada"></option>
+    </datalist>
+    <br>
+    <label for="Gander"> Gander: </label>
+    <select name="Gander">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option>
+    </select>
+    <br>
+    <label for="date"> Date Of Birth: </label>
+    <input type="date" id="date" name="dob">
+    <br>
+    <label for="time">Time: </label>
+    <input type="time" id="time" name="tm"><br>
+    
+    <label for="colors">Colors: </label>
+    <input type="color" id="colors" name="colors"> <br>
+    <label for="file"> Choose Photo: </label>
+    <input type="file" id="file" name="file"><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1">
+    <label for="vehicle1"> I have a Bike </label>
+    <input type="checkbox" id="vehicle2" name="vehicle2">
+    <label for="vehicle2"> I have a Bycycle </label><br>
+    <textarea name="comment" cols="30" rows="10"> Comment Here </textarea>
+    <br>
+    <input type="submit" value="Send">
+    <input type="reset" value="reset">
+    </form>
+</body>
+</html>
